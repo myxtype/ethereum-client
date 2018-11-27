@@ -18,7 +18,7 @@ PHP版的以太坊RPC客户端，支持离线交易、生成私钥与地址。�
 ```
 > 或者 `composer require myxtype/ethereum-client`
 
-然后`composer install`即可。
+然后`composer update`即可。
 
 # 使用
 详细使用请参考`examples`文件夹
