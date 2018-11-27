@@ -16,7 +16,7 @@ $trans = [
     "value" => Utils::ethToWei('0.01', true),
     "data" => '0x',
 ];
-// And you Ccan set gas, nonce, gasPrice
+// And you can set gas, nonce, gasPrice
 $trans['gas'] = dechex(hexdec($client->eth_estimateGas($trans)) * 1.5);
 $trans['gasPrice'] = $client->eth_gasPrice();
 $trans['nonce'] = $client->eth_getTransactionCount('0x69A34E519D9944CA7E3B55278a4EaF744769198C', 'pending');
@@ -26,7 +26,7 @@ $trans['nonce'] = $client->eth_getTransactionCount('0x69A34E519D9944CA7E3B55278a
 $txid = $client->sendTransaction($trans);
 
 // 4. If there is no mistake
-// You will see txid here. Like string(66) "0x1adcb80b413bcde285f93f0274e6cf04bc016e8813c8390ff31a6ccb43e75f51"
+// you will see txid here. Like string(66) "0x1adcb80b413bcde285f93f0274e6cf04bc016e8813c8390ff31a6ccb43e75f51"
 var_dump($txid);
 
 // 5. And you will ...
