@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Xtype\\": "src/"
+            "xtype\\": "src/"
         }
     }
 }
