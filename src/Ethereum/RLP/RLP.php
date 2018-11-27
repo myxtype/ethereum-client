@@ -9,7 +9,7 @@
  * @license MIT
  */
 
-namespace Xtype\RLP;
+namespace xtype\Ethereum\RLP;
 
 use InvalidArgumentException;
 use RuntimeException;

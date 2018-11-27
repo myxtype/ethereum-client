@@ -1,6 +1,6 @@
 <?php
 
-namespace Xtype;
+namespace xtype\Ethereum;
 
 use GuzzleHttp\Client as GuzzleHttp;
 
