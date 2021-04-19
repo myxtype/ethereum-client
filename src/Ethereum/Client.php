@@ -113,6 +113,13 @@ class Client
             'value' => '',
             'data' => '',
         ], $transaction);
+        
+        // EIP-155
+        if ($chainId > 0) {
+            $transaction['v']=$chainId;
+            $transaction['r']='';
+            $transaction['s']='';
+        }
 
         // serialize
         $raw = $this->rawEncode($transaction);
