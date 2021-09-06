@@ -1,10 +1,10 @@
 {
-    "name": "myxtype/ethereum-client",
+    "name": "yx1hlqbk/ethereum-client",
     "description": "ethereum rpc client, offline sign, php",
     "authors": [
         {
-            "name": "赵波",
-            "email": "792598794@qq.com"
+            "name": "ian",
+            "email": "yx1hlqbk@gmail.com"
         }
     ],
     "require": {
