@@ -225,7 +225,6 @@ class Client
      */
     public function getChainId()
     {
-        return 0;
         if ($this->chainId === null) {
             $this->chainId = $this->net_version();
         }
