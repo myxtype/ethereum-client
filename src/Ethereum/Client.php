@@ -116,7 +116,7 @@ class Client
         
         // EIP-155
         if ($chainId > 0) {
-            $transaction['v']=$chainId;
+            $transaction['v']=dechex($chainId);
             $transaction['r']='';
             $transaction['s']='';
         }
