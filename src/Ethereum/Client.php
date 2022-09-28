@@ -226,7 +226,8 @@ class Client
     public function getChainId()
     {
         if ($this->chainId === null) {
-            $this->chainId = $this->net_version();
+            $chainId = $this->eth_chainId();
+            $this->chainId = (string) hexdec($chainId);
         }
         return $this->chainId;
     }
