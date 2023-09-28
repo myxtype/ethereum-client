@@ -1,3 +1,7 @@
+# 注意
+此仓库很久之前已不再维护，建议使用以下仓库进行替代：
+- https://github.com/web3p/web3.php
+
 # ethereum-client
 ethereum rpc client, offline sign, php
 
